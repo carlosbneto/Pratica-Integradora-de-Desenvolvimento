@@ -5,16 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pratica Integradora Desenvolvimento de Software</title>
+
+    <link rel="stylesheet" href="\style.css" type="text/css"/>
 </head>
 <body>
-    <header>
-        <h1>
-        
-        </h1>
-    </header>
-    
-    <p>
-       
-    </p>
+    <div id="lista">
+        <h2>Lista de Serviços</h2>
+        <ul>
+            <li>Criaçao de Sites</li>
+            <li>Criação de Sistemas para Internet</li>
+            <li>Criação de soluções mobile</li>
+        </ul>
+    </div>
+    <!--
+        Usando Tabelas - Atividade 3
+    -->
+    <div id="tabela">
+        <table border="1px" height="150" width="300" cellspacing="2">
+            <caption>Nossos Clientes</caption>
+            <thead>
+                <th>Empresa</th>
+                <th>País</th>
+                <th>Estado</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td>HLSJ</td>
+                <td>Alemanha</td>
+                <td>Akhein,TE</td>
+                </tr>
+                <tr>
+                <td>Umbrela</td>
+                <td colspan="2">USA</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Nome</td>
+                    <td colspan="2">Endereço</td>
+                </tr>
+            </tfoot>
+            </table>
+        </div>
+            <br>
+<!-- 
+    Criando Formulários
+-->
+<div class="contato-form">
+    <form nome="form_cliente" method="get" aria-setsize="200">
+
+        <legend>Nome</legend>
+        <input name="nome" type="text" placeholder="Seu nome">
+
+        <legend>Email</legend>
+        <input type="email" nome="nome">
+
+        <legend>Sexo:</legend>
+        <select name="sexo" id="sexo" size="1">
+            <option selected value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select> 
+
+        <legend>Observação</legend>
+        <textarea name="obs" id="obs" cols="30" rows="3"></textarea>
+        <br>
+        <button type="submit" value="enviar">Enviar</button>
+
+    </form>
+</div>
+
 </body>
 </html>

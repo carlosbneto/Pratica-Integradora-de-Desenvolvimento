@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica Integradora Desenvolvimento de Software</title>
+</head>
+<body>
+    <div id="lista">
+        <h2>Lista de Serviços</h2>
+        <ul>
+            <li>Criaçao de Sites</li>
+            <li>Criação de Sistemas para Internet</li>
+            <li>Criação de soluções mobile</li>
+        </ul>
+    </div>
+    <!--
+        Usando Tabelas - Atividade 3
+    -->
+    <div id="tabela">
+        <table border="1px" height="150" width="300" cellspacing="2">
+            <caption>Nossos Clientes</caption>
+            <thead>
+                <th>Empresa</th>
+                <th>País</th>
+                <th>Estado</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td>HLSJ</td>
+                <td>Alemanha</td>
+                <td>Akhein,TE</td>
+                </tr>
+                <tr>
+                <td>Umbrela</td>
+                <td colspan="2">USA</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Nome</td>
+                    <td colspan="2">Endereço</td>
+                </tr>
+            </tfoot>
+            </table>
+        </div>
+            <br>
+<!-- 
+    Formulário Descomplica
+-->
+<fieldset>
+<h1 style="color:#00E88E;">Formulário Descomplica</h1>
+
+<h2>Alterar Dados Cadastrais</h2>
+
+
+<form action="">
+
+    <div>
+    <label for="pais">País*</label> <br>
+    <select name="pais" id="pais">
+        <option selected value="BR">Brasil</option>
+    </select> 
+    </div>
+
+    <div>
+        <label for="cep">CEP*</label><br>
+        <input name="cep" id="cep" type="text" value="60335-010" maxlength="9">
+    </div>
+
+    <div>
+        <label for="endereco">Endereço *</label><br>
+        <input name="endereco" id="endereco" type="text" maxlength="50">
+    </div>
+
+    <div>
+        <label for="numero">Número *</label><br>
+        <input name="numero" id="numero" type="text" maxlength="4">
+    </div>
+
+    <div>
+        <label for="complemento">Complemento *</label><br>
+        <input name="complemento" id="complemento" type="text" maxlength="30">
+    </div>
+
+    <div>
+        <label for="estado">UF *</label><br>
+        <select name="estado" id="estado">
+            <option value="CE">Ceará</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="cidade">Cidade </label><br>
+        <select name="cidade" id="cidade">
+            <option value="padrao">Selecione...</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="bairro">Bairro</label><br>
+        <input name="bairro" id="bairro" type="text" maxlength="50">
+    </div>
+</form>
+    <hr>
+    <button type="submit">Atualizar Dados</button>
+</fieldset>
+
+
+
+
+
+
+
+
+</body>
+</html>
