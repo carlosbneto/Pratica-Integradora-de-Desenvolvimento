@@ -1,12 +1,21 @@
+/*1° Atividade Sobre CSS*/
 h2{
     color: red;
 }
 
 body{
     background-color:burlywood;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 table{
     background-color: blueviolet;
     color: white;
+}
+/* Atividade Estilos Avançados */
+
+thead{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 4px red;
 }

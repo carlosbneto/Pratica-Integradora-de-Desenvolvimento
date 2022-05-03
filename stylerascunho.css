@@ -1,0 +1,74 @@
+/*1° Atividade Sobre CSS
+h2{
+    color: red;
+}
+
+body{
+    background-color:burlywood;
+}
+
+table{
+    background-color: blueviolet;
+    color: white;
+}
+*/
+/* aula sobre texto*/
+body{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.texto {
+    text-align: center;
+    font-size: larger;
+    letter-spacing: 10px;
+   
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+}
+.content{
+    background-color: white;
+    flex-grow: 1;
+
+}
+.navbar{
+    display: flex;
+    background-color: #C4170C;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.menu_button {
+    display: flex;
+    position: center;
+    margin: 15px;
+}
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+.MENU_TEXTO{
+    color: white;
+    margin: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: center;
+    text-align: center;
+}
+
+.logo{
+    position: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search_button{
+    position: right;
+}
+
